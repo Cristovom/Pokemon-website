@@ -1,0 +1,120 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: #091730;
+    font-family: 'Nohemi-Regular';
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Nohemi-Light';
+    src: url(assets/fonts/Nohemi-Light-BF6438cc5702321.woff);
+}
+
+@font-face {
+    font-family: 'Nohemi-Regular';
+    src: url(assets/fonts/Nohemi-Regular-BF6438cc579d934.woff);
+}
+
+@font-face {
+    font-family: 'Nohemi-Medium';
+    src: url(assets/fonts/Nohemi-Medium-BF6438cc57ddecd.woff);
+}
+
+@font-face {
+    font-family: 'Nohemi-Semibold';
+    src: url(assets/fonts/Nohemi-SemiBold-BF6438cc57db2ff.woff);
+}
+
+@font-face {
+    font-family: 'Nohemi-Bold';
+    src: url(assets/fonts/Nohemi-Bold-BF6438cc577b524.woff);
+}
+
+.text-linear {
+    background: -webkit-linear-gradient(top, #F8EEFF 23%, #F8EEFF 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0px #F8EEFF;
+}
+
+.font-default h1 {
+    font-size: 50px;
+    font-family: 'Nohemi-semibold';
+}
+
+.font-default h2 {
+    font-size: 40px;
+}
+
+.font-default p {
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+.font-default span.text-linear {
+    font-family: 'Nohemi-Light';
+}
+
+/* Header */
+.logo-poke img {
+    width: 100%;
+    max-width: 180px;
+}
+
+header.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+a.menu {
+    border: 1px solid #ffffff50;
+    display: inline-block;
+    padding: 10px;
+}
+
+a.menu span {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #D089FD;
+}
+
+a.menu span:nth-of-type(2) {
+    width: 35px;
+}
+
+a.menu span:nth-of-type(3) {
+    width: 25px;
+}
+
+a.link-border {
+    color: #F4E3FF;
+}
+
+a.link-border i.icon-close {
+    background: url(assets/svg/icon-close.svg) no-repeat center center;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* webbanner */
+section.webbanner .content-banner {
+    min-height: calc(100vh + 180px);
+}
+
+
+@media(min-width:1024px) {    
+    .word-menu {
+        border-left: 1px solid #484747;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+}
